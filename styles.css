@@ -1,0 +1,65 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,900;1,400&display=swap');
+
+.titulo1{
+    font-size: 2rem;
+    color: black;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    font-style:inherit;
+}
+.titulo2{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+.titulo3{
+    font-family: 'Playfair Display', serif;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: transparent;
+    color: azure;
+    font-family: 'Playfair Display', serif;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: black;
+}
+body{
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;  
+
+}
+.table{
+    border-collapse: collapse;
+}
+.table td{
+    border: 1px solid;
+    text-align: center;
+}
+.table th{
+    background-color: #d9a8fa ;
+    color: white;
+}
+.table td:hover{
+    background-color: #d9a8fa ;
+    color: white;
+}
+.table th:hover{
+    background-color:white;
+    color: purple;
+}
+.td{
+    font-weight: bold;
+}
+caption{
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+}
